@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\saranjan\\C#\\Bank\\Banking App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B25A4EF1-AD26-462B-961A-2F69F539EBCA}|ConsoleApp1\\ConsoleApp1.csproj|z:\\saranjan\\c#\\bank\\banking app\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25A4EF1-AD26-462B-961A-2F69F539EBCA}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255B0EA0-4623-4247-9492-D21E42B6D704}|Banking App\\Banking App.csproj|z:\\saranjan\\c#\\bank\\banking app\\banking app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255B0EA0-4623-4247-9492-D21E42B6D704}|Banking App\\Banking App.csproj|solutionrelative:banking app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\saranjan\\C#\\Bank\\Banking App\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "Z:\\saranjan\\C#\\Bank\\Banking App\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T09:18:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\saranjan\\C#\\Bank\\Banking App\\Banking App\\Program.cs",
+              "RelativeDocumentMoniker": "Banking App\\Program.cs",
+              "ToolTip": "Z:\\saranjan\\C#\\Bank\\Banking App\\Banking App\\Program.cs",
+              "RelativeToolTip": "Banking App\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T02:23:00.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

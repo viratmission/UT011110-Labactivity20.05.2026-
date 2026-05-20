@@ -1,0 +1,14 @@
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+Z:\saranjan\C#\Bank\Banking App\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
