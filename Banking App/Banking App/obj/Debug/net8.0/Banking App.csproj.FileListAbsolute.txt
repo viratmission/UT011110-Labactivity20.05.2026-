@@ -12,3 +12,4 @@ Z:\saranjan\C#\Bank\Banking App\Banking App\obj\Debug\net8.0\refint\Banking App.
 Z:\saranjan\C#\Bank\Banking App\Banking App\obj\Debug\net8.0\Banking App.pdb
 Z:\saranjan\C#\Bank\Banking App\Banking App\obj\Debug\net8.0\Banking App.genruntimeconfig.cache
 Z:\saranjan\C#\Bank\Banking App\Banking App\obj\Debug\net8.0\ref\Banking App.dll
+Z:\saranjan\C#\Bank\Banking App\Banking App\obj\Debug\net8.0\Banking App.sourcelink.json

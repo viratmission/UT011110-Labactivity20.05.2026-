@@ -15,12 +15,10 @@ namespace BankApplication
         public string accType = "Fixed Deposit";
         public decimal withdraw;
         public decimal deposit;
-        List<transaction> accounts = new List<transaction>();
+        List<string> accounts = new List<string>();
 
-        transaction trans = new transaction()
-        {
-            Date = DateTime.Now
-        };
+        transaction trans = new transaction();
+        Program program = new Program();
        
         
         //public double updateBalance = accbalance + Deposit;
@@ -61,10 +59,11 @@ namespace BankApplication
 
             Console.WriteLine("      -------- Deposit Your Cash !! -------- ");
             Console.WriteLine();
-
+            
+            
             Console.Write("Ennter Your Deposit Amount      : ");
             deposit = Convert.ToInt32(Console.ReadLine());
-            
+            accounts.Add($"{trans.Date}     {accountHolder}     Deposit  +{deposit}       Rs.{accBalance+deposit}.00");
             
             if (deposit > 0)
             {
@@ -76,37 +75,13 @@ namespace BankApplication
 
             else { Console.WriteLine("Deposit Amount Is Invalid !!!"); }
             Console.Write($"\nPress any key to move on...");
+            
             Console.ReadKey();
             Console.Clear();
 
         }
         
-        public void transaction()
-        {
-            Console.Clear();
-            Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine("                   Amana Bank                       ");
-            Console.WriteLine($"            Welcome to Our Bank {accountHolder} !  ");
-            Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine();
 
-            Console.WriteLine("       -------- Transaction History --------        ");
-            accounts.Add(trans);
-
-            for (int id = 1; ; id++)
-            {
-                foreach (var trans in accounts)
-                {
-                    Console.WriteLine($"{id} {trans.Date} {accountHolder} {deposit}");
-                    
-                };
-                
-            }
-
-            Console.Write($"\nPress any key to move on...");
-            Console.ReadKey();
-            Console.Clear();
-        }
         public void Withdraw(BankAccount account)
         {
             Console.Clear();
@@ -120,8 +95,11 @@ namespace BankApplication
             Console.WriteLine("    -------- Widthdraw Your Cash !! -------- ");
             Console.WriteLine();
 
+
             Console.Write("Enter your Widthrawal Amount        : ");
             account.withdraw = Convert.ToInt32(Console.ReadLine());
+            accounts.Add(trans.Date+"     "+accountHolder+"    "+"Withdraw  -"+withdraw+ "     "+"Rs."+$"{  accBalance-withdraw}"+".00");
+
             if (account.withdraw > 0 && account.withdraw < account.accBalance)
             {
                accBalance -= withdraw;
@@ -132,12 +110,43 @@ namespace BankApplication
             Console.ReadKey();
             Console.Clear();
         }
+        public void transaction()
+        {
+            Console.Clear();
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("                         Amana Bank                       ");
+            Console.WriteLine($"                  Welcome to Our Bank {accountHolder} !  ");
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine();
+
+            Console.WriteLine("       ------------- Transaction History ------------        ");
+            Console.WriteLine();
+            Console.WriteLine("Date   &   Time          Name         Type & Money      Balance  ");
+            Console.WriteLine();
+
+            foreach (var s in accounts)
+            {
+             Console.WriteLine(s);
+                
+            };
+            
+
+
+
+            Console.Write($"\nPress any key to move on...");
+            Console.ReadKey();
+            Console.Clear();
+        }
 
     }
     class transaction
     {
         public int id;
-        public DateTime Date;
+        public DateTime Date = DateTime.Now;
+        public void print()
+        {
+            Console.WriteLine($"");
+        }
     }
     class Program
     {
